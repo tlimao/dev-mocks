@@ -1,0 +1,70 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Auth Mock Server",
+    "collectionId": "09b5607d-4e82-4434-9e60-8bc163203795",
+    "dateExported": "2024-10-08T03:01:23.210Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "253e21de-6ffd-4a34-8131-323dfc391968",
+            "colId": "09b5607d-4e82-4434-9e60-8bc163203795",
+            "containerId": "",
+            "name": "/api/v1/auth/login",
+            "url": "/api/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-08T00:18:11.628Z",
+            "modified": "2024-10-08T02:31:57.973Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "dummy-user3"
+                    },
+                    {
+                        "name": "password",
+                        "value": "dummy-pass"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "b4fad52a-a85c-4fbe-802b-1cc256385bcd",
+            "colId": "09b5607d-4e82-4434-9e60-8bc163203795",
+            "containerId": "",
+            "name": "/api/v1/auth/logout",
+            "url": "/api/v1/auth/logout",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-08T00:18:23.550Z",
+            "modified": "2024-10-08T00:20:04.443Z",
+            "headers": []
+        },
+        {
+            "_id": "9b85a4ea-bf96-4211-bb2f-1614c664f029",
+            "colId": "09b5607d-4e82-4434-9e60-8bc163203795",
+            "containerId": "",
+            "name": "/api/v1/auth",
+            "url": "/api/v1/auth",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-08T00:18:34.653Z",
+            "modified": "2024-10-08T02:20:55.815Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "mocked-jwt-token"
+            }
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8080"
+        }
+    },
+    "ref": "D3Ou1oQzKSSYItXSDOGKErEpHUBIM5db-Gdl-lYensJGofDglyBcIeiBfLv_L20llAPw-RIdDF1OrO3noDHFIQ"
+}
